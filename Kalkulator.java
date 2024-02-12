@@ -7,7 +7,7 @@ public class Kalkulator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int angka1, angka2;
-
+        
         System.out.println("Pilih operasi :");
         System.out.println("1.Penjumlahan");
         System.out.println("2.Pengurangan");
@@ -30,4 +30,5 @@ public class Kalkulator {
             System.out.println("Pilihan Invalid");
         }
     }
+    
 }
