@@ -21,19 +21,19 @@ public class Kalkulator {
         String pilihan = scanner.nextLine();
         if (pilihan.equals("1") || pilihan.equals("2") || pilihan.equals("3") || pilihan.equals("4")){
             System.out.println("Masukkan bilangan pertama :");
-            angka1 = scanner.nextInt();
+            Bilangan1 = scanner.nextInt();
             System.out.println("Masukkan bilangan kedua :");
-            angka2 = scanner.nextInt();
+            Bilangan2 = scanner.nextInt();
 
 
             if(pilihan.equals("1")){
-                System.out.println(angka1 + " + " + angka2 + " = " + (angka1 + angka2));
+                System.out.println(Bilangan1 + " + " + Bilangan2 + " = " + (Bilangan1 + Bilangan2));
             } else if(pilihan.equals("2")){
-                System.out.println(angka1 + " - " + angka2 + " = " + (angka1 - angka2));
+                System.out.println(Bilangan1 + " - " + Bilangan2 + " = " + (Bilangan1 - Bilangan2));
             } else if(pilihan.equals("3")){
-                System.out.println(angka1 + " x " + angka2 + " = " + (angka1 * angka2));
+                System.out.println(Bilangan1 + " x " + Bilangan2 + " = " + (Bilangan1 * Bilangan2));
             }else if(pilihan.equals("4")){
-                System.out.println(angka1 + " : " + angka2 + " = " + (angka1 / angka2));
+                System.out.println(Bilangan1 + " : " + Bilangan2 + " = " + (Bilangan1 / Bilangan2));
             }
         }else{
             System.out.println("Pilihan Invalid");
