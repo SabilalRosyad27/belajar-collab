@@ -6,7 +6,7 @@ public class Kalkulator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int angka1, angka2;
+        int Bilangan1, Bilangan2;
         
         System.out.println("Pilih operasi :");
         System.out.println("1. Penjumlahan");
