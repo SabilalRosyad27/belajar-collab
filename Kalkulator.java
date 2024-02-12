@@ -9,9 +9,9 @@ public class Kalkulator {
         int angka1, angka2;
         
         System.out.println("Pilih operasi :");
-        System.out.println("1.Penjumlahan");
-        System.out.println("2.Pengurangan");
-        System.out.println("3. perkalian");
+        System.out.println("1. Penjumlahan");
+        System.out.println("2. Pengurangan");
+        System.out.println("3. Perkalian");
         System.out.println("4. Pembagian");
         System.out.println("5. Hasil bagi");
 
