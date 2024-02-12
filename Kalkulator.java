@@ -6,7 +6,7 @@ public class Kalkulator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int angka1, angka2;
+        int bil1, bil2;
         
         System.out.println("Pilih operasi :");
         System.out.println("1. Penjumlahan");
@@ -16,7 +16,7 @@ public class Kalkulator {
         System.out.println("5. Hasil bagi");
 
 
-        System.out.println("Masukkan Pilihan (1/2/3/4/6) :");
+        System.out.println("Masukkan Pilihan (1/2/3/4/5) :");
 
         String pilihan = scanner.nextLine();
         if (pilihan.equals("1") || pilihan.equals("2") || pilihan.equals("3") || pilihan.equals("4")){
